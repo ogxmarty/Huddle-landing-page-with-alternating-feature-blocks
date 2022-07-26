@@ -1,0 +1,508 @@
+/* Font Import links */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Universal Styles */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body CSS */
+body{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Container CSS */
+
+.container{
+  min-width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color:hsl(193, 100%, 96%);
+  background-image: url(./images/bg-hero-mobile.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Navigational Bar CSS */
+
+.nav-bar-wrapper{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.nav-bar-section{
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 0.5rem;
+}
+
+.nav-logo{
+  max-width: 55%;
+  max-height: 100%;
+  padding-left: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.nav-logo img{
+  max-width: 60%;
+  max-height: 100%;
+}
+
+.nav-button{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-button button{
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0.3rem 1.5rem;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  border-style: none;
+  border-radius: 1.5rem;
+  background-color: white;
+  box-shadow: 1px 1px 3px 0px hsl(208, 11%, 55%);
+}
+
+/* Hero CSS */
+
+.hero-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+
+.hero-section h2{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.hero-section p{
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 2.5rem;
+  line-height: 1.5rem;
+}
+
+.hero-section-bttn{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 4rem;
+  border-radius: 1.5rem;
+  background-color: hsl(322, 100%, 66%);
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero-section-img{
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.hero-section-img img{
+  max-width: 100%;
+  max-height: 100%;
+  
+}
+
+/* Info Section CSS */
+
+.info-section{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.info-section-content{
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px -1px rgba(0,37,46,0.40);
+  -webkit-box-shadow: 0px 0px 10px -1px rgba(0,37,46,0.40);
+  -moz-box-shadow: 0px 0px 10px -1px rgba(0,37,46,0.40);
+
+}
+
+.info-section-content-text{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+}
+  .info-section-content img{
+  max-width: 90%;
+  max-height: 90%;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.info-section-content-text h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.info-section-content-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 0.5rem 2rem;
+  padding-bottom: 4rem;
+  color: hsl(208, 11%, 55%);
+}
+
+.get-started-section{
+  max-width: 95%;
+  position: relative;
+  top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px -1px rgba(0,37,46,0.40);
+  -webkit-box-shadow: 0px 0px 10px -1px rgba(0,37,46,0.40);
+  -moz-box-shadow: 0px 0px 10px -1px rgba(0,37,46,0.40);
+}
+
+.get-started-section h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  margin: 1.5rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.get-started-section p{
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.get-started-bttn{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 4rem;
+  border-radius: 1.5rem;
+  background-color: hsl(322, 100%, 66%);
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/* Call to Arms section CSS */
+
+.contact-section{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.contact-section ul{
+  list-style-type: none;
+  padding-left: 1.5rem;
+}
+
+.contact-section ul li{
+  padding-top: 2rem;
+}
+
+.contact-section ul li img{
+  max-width: 50%;
+  max-width: 100%;
+}
+
+.contact-section ul li a{
+  max-width: 50%;
+  max-height: 100%;
+  text-align: justify;
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+}
+
+
+.quick-links-section{
+  padding-left: 1rem;
+}
+
+.contact-section img{
+  filter: brightness(0) invert(1);
+}
+
+.content-logo{
+  max-width:100%;
+}
+
+.content-logo img{
+  max-width: 50%;
+  padding-left: 1.5rem;
+}
+
+.social-media-section{
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.social-media-section img{
+  max-width: 10%;
+  max-height: 10%;
+
+}
+
+.footer-copy-right-text{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.footer-copy-right-text span{
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 1000px) {
+  .container{
+    background-image: url(./images/bg-hero-desktop.svg);
+  }
+
+  .nav-bar-section{
+    gap: 50rem;
+    padding-top: 2rem;
+  }
+  
+  .nav-logo{
+    max-width: 80%;
+    max-height: 100%;
+    padding-left: 0.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .nav-logo img{
+    max-width: 100%;
+  }
+  
+  .nav-button{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-button button{
+    padding: 1rem 3rem;
+    font-size: 16px;
+  }
+
+  .hero-section{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+  }
+
+  .hero-section-img{
+    padding-right: 5rem;
+    max-width: 100%;
+  }
+
+  .hero-section-content{
+    padding: 5rem;
+  }
+
+  .hero-section-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+    text-align: left;
+  }
+
+  .hero-section p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2.5rem;
+  }
+
+  .hero-section-bttn{
+    max-width: 100%;
+    padding: 1.5rem 5rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    margin-right: 20rem;
+  }
+
+  .info-section-content{
+    min-width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 10rem;
+    margin-bottom: 5rem;
+  }
+
+  .info-section-content:nth-child(2){
+    flex-direction: row-reverse;
+  }
+  
+
+  .info-section-content-text{
+    display: flex;
+  }
+
+  .info-section-content-text h2{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .info-section-content-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+  
+  .contact-section{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+    "content content 0"
+    "stub quick social"
+    "stub quick social";
+    gap: 0;
+    font-size: 1.5rem;
+  }
+    
+  .content-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    padding-top: 7rem;
+    grid-area: content;
+
+  }
+    
+    .contact-information-section{
+    grid-area: stub;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+  }
+
+     
+
+  .quick-links-section { 
+    grid-area: quick;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    }
+  .social-media-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    grid-area: social;
+  }
+
+    .get-started-section{
+    min-width: 50%;
+  }
+
+    .get-started-section button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+}
